@@ -4,6 +4,9 @@ from PyQt5.QtWidgets import QApplication
 import sys
 
 
+"""Step 1) Script for deleting unnecessary columns to clean a dataframe"""
+
+
 def delete_columns():
     file_path = file_in()
     df1 = file_path_to_df(file_path)

@@ -6,7 +6,7 @@ from PyQt5.QtWidgets import QApplication
 import sys
 from analyse_nir_data import calculate_variance, average_df_columns
 from linear_analysis import linear_analysis
-"""Whole process automation of NIR data to Linear regression. Goes through entire process from file importation
+""" Step 4)Whole process automation of NIR data to Linear regression. Goes through entire process from file importation
 , replicate averaging, removal of diluent, """
 
 def file_process():
@@ -72,7 +72,7 @@ def main():
     df1 = file_process()
     variance = variance_calc(df1)
     drug_only_all_reps = remove_diluent(df1, "Saline")
-    variance = variance_calc(drug_only_all_reps)
+    variance_drug_conc = variance_calc(drug_only_all_reps)
     avg_df = average_columns(drug_only_all_reps)
     drug_at_lasers, var_at_lasers = reduce_to_MVP_wavelengths(avg_df, variance, [1310, 1387, 1550, 1654, 1670, 1749, 1850])
     linearity_data = run_linearity_for_dataframe(drug_at_lasers)

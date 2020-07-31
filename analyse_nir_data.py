@@ -8,6 +8,8 @@ import sys
 from file_IO import file_in, file_path_to_df
 from linear_analysis import linear_analysis
 
+"""Step 2)Script for processing nir data of drug at several concentrations and its diluent. Outputs 4 plots and prints
+the variable regions (outside 95% CI) in the terminal"""
 
 def nir_data_to_dataframe():
     """uses file dialog to import file to dataframe"""
