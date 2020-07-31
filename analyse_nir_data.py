@@ -109,9 +109,9 @@ def main():
     variable_sites = calculate_variable_regions(modified_normalised_averaged)
     plot_full_spectra(df_NIR, "Full Spectrum NIR data")
     plot_full_spectra(variance_df, "Sample replicate variance", legend_state=True)
-    distance_df.plot()
+    distance_df.plot(title="Distance Diluent to Drug")
     # normalised.plot()
-    modified_normalised_averaged.plot()
+    modified_normalised_averaged.plot(title = "Distance diluent to Drug normalised by Diluent")
     plt.show()
     print(f" Variable regions : {variable_sites.to_string()}")
     return distance_df, variance_df
