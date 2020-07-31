@@ -46,11 +46,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/distance_drug_to_diluent_NIR.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="297">
               <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+=======
+            <state relative-caret-position="351">
+              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+>>>>>>> 322b24a1a51b86b177034ea350c52e4275eac5dd
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -82,7 +87,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/column_rename.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
@@ -333,7 +338,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25185186" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -598,6 +602,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/column_rename.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -608,6 +613,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 322b24a1a51b86b177034ea350c52e4275eac5dd
     <entry file="file://$PROJECT_DIR$/Linear_process_for_raw_NIR_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
@@ -630,8 +637,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/distance_drug_to_diluent_NIR.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="297">
           <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+=======
+        <state relative-caret-position="351">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/column_rename.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+>>>>>>> 322b24a1a51b86b177034ea350c52e4275eac5dd
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
